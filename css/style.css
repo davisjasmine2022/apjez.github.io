@@ -1,4 +1,45 @@
-H1 {
-  color: #EAAA00;
-  font-family: "Papyrus", Fantasy;
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style: none;
+  margin:0;
+  padding:0;
+  text-align:center;
 }
+
+.navbar a {
+  float: center;
+  display: inline-block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px 4px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar a:active {
+  border-bottom: 3px solid red;
+}
+
+.navbar li {
+  display:inline;
+}
+
+.navbar a:hover {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
