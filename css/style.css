@@ -61,3 +61,8 @@ body {margin:0;}
   font-size:5vw
 }
 
+.clearfix p {
+  font-size:1vw
+  color: #54585A;
+}
+
