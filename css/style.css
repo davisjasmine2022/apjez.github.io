@@ -14,7 +14,6 @@ body {margin:0;}
 }
 
 .navbar a {
-  float: center;
   display: inline-block;
   color: #54585A;
   text-align: center;
