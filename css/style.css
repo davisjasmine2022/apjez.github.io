@@ -2,29 +2,29 @@ body {margin:0;}
 
 .navbar {
   overflow: hidden;
-  background-color: #FFFFFF;
   position: fixed;
   top: 0;
-  width: 100%;
+  color: #FFFFFF;
+  width: 80%;
   list-style: none;
-  margin:0;
+  margin: auto;
   padding:0;
   text-align:center;
+  border-bottom: 1px solid #D6DBD4;
 }
 
 .navbar a {
   float: center;
   display: inline-block;
-  color: #000000;
+  color: #54585A;
   text-align: center;
   padding: 14px 16px 4px;
   text-decoration: none;
   font-size: 17px;
-  border-bottom: 3px solid transparent;
 }
 
 .navbar a:active {
-  border-bottom: 3px solid red;
+  color: black;
 }
 
 .navbar li {
@@ -33,7 +33,6 @@ body {margin:0;}
 
 .navbar a:hover {
   color: black;
-  border-bottom: 2px solid black;
 }
 
 .main {
