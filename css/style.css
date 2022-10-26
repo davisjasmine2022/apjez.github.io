@@ -48,6 +48,7 @@ body {margin:0;}
 .clearfix {
   width: 60%;
   margin: auto;
+  overflow: auto;
 }
 
 .clearfix::after {
